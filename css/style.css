@@ -1,0 +1,69 @@
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+#total {
+   font-family: Helvetica;
+   font-size: 100px;
+   font-weight: 900;
+   text-align: center;
+}
+
+#math {
+   display: flex;
+   padding-top: 80px;
+   height: 80px;
+   justify-content: center;
+   align-items: center;
+}
+
+#plus {
+   margin-right: 20px;
+   height: 90px;
+   width: 90px;
+   background: #A9A9A9;
+   color: white;
+   border-radius: 10%;
+   font-size: 50px;
+
+}
+
+#plus:hover {
+   background: white;
+   color: grey;
+}
+
+#numBox {
+   height: 80px;
+   width: 120px;
+   border: 4px solid #A9A9A9;
+   border-radius: 10%;
+   font-family: Arial, sans-serif;
+   font-size: 50px;
+   outline: none;
+   text-align: center;
+   font-weight: 400;
+   align-self: center;
+}
+
+#minus {
+   margin-left: 20px;
+   height: 90px;
+   width: 90px;
+   background: #A9A9A9;
+   color: white;
+   border-radius: 10%;
+   font-size: 50px;
+}
+
+#minus:hover {
+   background: white;
+   color: #A9A9A9;
+}
+
+
+
