@@ -23,6 +23,5 @@ function math(evt) {
       : runningTotal >= 0
          ? total.style.color = 'black'
          : null;
-
-   }
+}
 
